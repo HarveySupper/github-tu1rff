@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "nuxt-ionic-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi generate",
+    "ionic:build": "pnpm build"
+  },
+  "devDependencies": {
+    "@capacitor/camera": "5.0.2",
+    "@capacitor/filesystem": "5.0.2",
+    "@capacitor/storage": "1.2.5",
+    "@nuxtjs/ionic": "latest",
+    "nuxt": "3.4.3"
+  }
+}
